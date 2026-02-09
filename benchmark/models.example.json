@@ -1,0 +1,35 @@
+{
+  "defaults": {
+    "temperature": 0.0
+  },
+  "models": {
+    "local-vllm": {
+      "type": "llm_api",
+      "provider": "vllm",
+      "model": "your-served-model-name",
+      "api_base_env": "LOCAL_VLLM_BASE_URL",
+      "api_key_env": "LOCAL_VLLM_API_KEY"
+    },
+    "gpt-4.1-mini": {
+      "type": "llm_api",
+      "provider": "openai",
+      "model": "gpt-4.1-mini",
+      "api_base_env": "OPENAI_BASE_URL",
+      "api_key_env": "OPENAI_API_KEY"
+    },
+    "deepseek-chat": {
+      "type": "llm_api",
+      "provider": "deepseek-ai",
+      "model": "deepseek-chat",
+      "api_base_env": "DEEPSEEK_BASE_URL",
+      "api_key_env": "DEEPSEEK_API_KEY"
+    },
+    "Qwen/Qwen3-8B": {
+      "type": "llm_api",
+      "provider": "siliconflow",
+      "model": "Qwen/Qwen3-8B",
+      "api_base_env": "SILICONFLOW_BASE_URL",
+      "api_key_env": "SILICONFLOW_API_KEY"
+    }
+  }
+}
