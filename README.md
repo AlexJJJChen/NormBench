@@ -99,3 +99,8 @@ All run artifacts live under:
 - This repository does not ship any private API keys. Put keys in `.env` (not in `benchmark/models.json`).
 - If you do not want to set `NORMBENCH_MODEL_CONFIG` in `.env`, you can pass it explicitly:
   `--model-config benchmark/models.json`
+
+## License
+
+This project is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0).
+See `LICENSE` for details.
